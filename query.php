@@ -23,6 +23,7 @@ $stmt->execute();
 $result = $stmt->get_result();
 $aux_query = $result->fetch_assoc();
 $stmt->close();
+?>
 
 
 
