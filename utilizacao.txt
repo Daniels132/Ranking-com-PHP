@@ -1,6 +1,8 @@
 Para utilizar o programa, basta criar um banco local chamado tecnoFit com as configurações padrão do localhost.
 Após isso, rodar as seguintes querys no banco de dados. 
 
+ao iniciar, filtrar o ID do movimento desejado, alterar entre ID 1 e 2, que são os que tem pontuacao cadastrada. 
+
 CREATE TABLE `user` (
 `id` int NOT NULL AUTO_INCREMENT,
 `name` varchar(255) NOT NULL,
